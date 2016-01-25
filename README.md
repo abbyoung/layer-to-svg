@@ -56,7 +56,7 @@ To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, lo
 - YOU'RE DONE. Your shiny new SVGs, CSS files, and backup AI files will show up in your destination folder(s).
 
 ## License 
-See [MIT License](https://github.com/abbyoung/svg-me/blob/master/LICENSE.md) file
+See [MIT License](https://github.com/abbyoung/svg-me/blob/master/LICENSE.md) file.
 
 ## Contact
 #### Developer
