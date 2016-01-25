@@ -28,11 +28,12 @@ To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, lo
 		var filePath = "~/Desktop/work/ps-to-svg/";
 ```
 - SVG destination:
-```
+	```
 	openIllustrator: function(file, color){
 		...
 		"var filePath = '~/Desktop/work/svg-me'"+
-		```
+	
+	```
 		
 - Move the file into Photoshop's Scripts folder. On the command line, enter:
 
