@@ -45,7 +45,8 @@ To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, lo
 ## Usage
 - Select desired Photoshop layer(s) in the Layers palette
 
-- Run the script under **File > Scripts > SVG Me**. **Make it better**: Set up a keyboard shortcut under **Edit > Keyboard Shortcuts > File > Scripts > SVG Me**.
+- Run the script under **File > Scripts > SVG Me**. 
+*Make it better*: Set up a keyboard shortcut under **Edit > Keyboard Shortcuts > File > Scripts > SVG Me**.
 
 - The script creates and saves CSS and AI files, then Illustrator opens the AI file and shows an options dialog. Check relevant boxes and click OK. The magic happens in the background.
 
