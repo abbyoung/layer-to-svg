@@ -36,10 +36,9 @@ To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, lo
 		
 - Move the file into Photoshop's Scripts folder. On the command line, enter:
 
-```
+	```
 	$ mv ~/Desktop/SVG\ Me.jsx /Applications/Adobe\ Photoshop\ CS6/Presets/Scripts/
-```
-
+	```
 - Close and reopen Photoshop if it's already open. The script should now appear under **File > Scripts > SVG Me**
 
 ## Usage
@@ -48,7 +47,7 @@ To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, lo
 - Run the script under **File > Scripts > SVG Me**. Make it better: Set up a keyboard shortcut under **Edit > Keyboard Shortcuts > File > Scripts > SVG Me**.
 
 - Illustrator will open the file and show an options dialog. Check relevant boxes and click OK.
-![Illustrator Dialog](https://github.com/abbyoung/svg-me/master/illustrator-dialog.jpg)**Note**: Sometimes AI lags at the dialog box. Working on fixing this 🔨🐱
+![Illustrator Dialog](https://github.com/abbyoung/svg-me/blob/master/illustrator-dialog.jpg)**Note**: Sometimes AI lags at the dialog box. Working on fixing this 🔨🐱
 
 - YOU'RE DONE. Your shiny new SVGs, CSS files, and backup AI files will show up in your destination folder(s).
 
