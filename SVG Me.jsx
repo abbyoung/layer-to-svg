@@ -8,10 +8,10 @@ function Layer(layer) {
 	this.name		=	(layer.name).replace(/\s+/g, "-").toLowerCase();
 	this.height		=	this.bounds[3]-this.bounds[1];
 	this.width		=	this.bounds[2]-this.bounds[0];
-	this.fillColor	=	layer.textItem.color.rgb;
-	this.top		=	this.bounds[1];
+	this.fillColor		=	layer.textItem.color.rgb;
+	this.top			=	this.bounds[1];
 	this.left		=	this.bounds[0];
-	this.artLayer	=	layer;
+	this.artLayer		=	layer;
 	};
 	
 Layer.prototype = {
