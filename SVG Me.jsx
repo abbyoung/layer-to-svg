@@ -30,7 +30,8 @@ Layer.prototype = {
 		
 	},
 	saveCSS: function(cssText){
-		var f = new File("~/Desktop/work/ps-to-svg/"+this.name+".css");
+		var filePath = "~/Desktop/work/svg-me/";
+		var f = new File(filePath+this.name+".css");
 
 	    f.open('w');
 	    f.write(cssText);
@@ -41,8 +42,9 @@ Layer.prototype = {
 			
 		var options = new ExportOptionsIllustrator();
 		options.path = IllustratorPathType.ALLPATHS;
-
-		savedFile = new File("~/Desktop/work/ps-to-svg/"+this.name+".ai");
+		
+		var filePath = "~/Desktop/work/svg-me/";
+		savedFile = new File(filePath + this.name + ".ai");
 		docRef.exportDocument(File(savedFile), ExportType.ILLUSTRATORPATHS, options);
 		
 		callback(savedFile, this.fillColor);
@@ -61,7 +63,8 @@ Layer.prototype = {
 				"openOptions.createArtboardWithArtworkBound = true;"+
 				"openOptions.preserveLegacyArtboard = false;"+
 				"app.open(new File('" + file + "'), DocumentColorSpace.RGB, openOptions);"+
-				"var fileSpec = new File('~/Desktop/work/ps-to-svg');"+
+				"var filePath = '~/Desktop/work/svg-me/';"+
+				"var fileSpec = new File(filePath);"+
 				"if (app.activeDocument.pathItems.length > 0) {"+
 				"var newFill = new RGBColor();"+
 				"newFill.red = "+color.red+";"+
