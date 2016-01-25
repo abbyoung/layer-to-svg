@@ -49,7 +49,8 @@ To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, lo
 
 - The script creates and saves CSS and AI files, then Illustrator opens the AI file and shows an options dialog. Check relevant boxes and click OK. The magic happens in the background.
 
-![Illustrator Dialog](https://github.com/abbyoung/svg-me/blob/master/illustrator-dialog.jpg)**Note**: Sometimes AI lags at the dialog box. Working on fixing this 🔨🐱
+![Illustrator Dialog](https://github.com/abbyoung/svg-me/blob/master/illustrator-dialog.jpg)
+**Note**: Sometimes AI lags at the dialog box. Working on fixing this 🔨🐱
 
 - YOU'RE DONE. Your shiny new SVGs, CSS files, and backup AI files will show up in your destination folder(s).
 
