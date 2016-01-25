@@ -3,7 +3,8 @@
 
 function Layer(layer) {
 	this.bounds		=	[parseInt(layer.bounds[0]), parseInt(layer.bounds[1]),
-		parseInt(layer.bounds[2]), parseInt(layer.bounds[3])];
+						parseInt(layer.bounds[2]), parseInt(layer.bounds[3])];
+		
 	this.name		=	(layer.name).replace(/\s+/g, "-").toLowerCase();
 	this.height		=	this.bounds[3]-this.bounds[1];
 	this.width		=	this.bounds[2]-this.bounds[0];
@@ -11,8 +12,8 @@ function Layer(layer) {
 	this.top		=	this.bounds[1];
 	this.left		=	this.bounds[0];
 	this.artLayer	=	layer;
-	}; 
-
+	};
+	
 Layer.prototype = {
 	constructor: Layer,
 	
