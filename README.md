@@ -6,7 +6,7 @@ Developed for CS6 Version 16.
 
 
 ## Installation
-To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, located at ```/Applications/Adobe\ Photoshop\ CS6/Presets/Scripts```
+To use SVG Me, place the script in Photoshop's Scripts folder ```/Applications/Adobe\ Photoshop\ CS6/Presets/Scripts```
 
 - Save the script [SVG ME.jsx](https://github.com/abbyoung/svg-me/blob/master/SVG%20Me.jsx) to your Desktop.
 
@@ -14,20 +14,20 @@ To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, lo
 ```
 	$ coda ~/Desktop/SVG\ Me.jsx
 ```
-...and edit the path variables to your preferred destination for saving.
+...and edit the path variables to your preferred destination(s) for saving.
 
-- CSS destination:
+- CSS files:
 ```
 	saveCSS: function(cssText){
 		var filePath = "~/Desktop/work/svg-me/"
 ```
-- AI destination:
+- AI files:
 ```
 	exportFile: function(docRef, callback){
 		...
 		var filePath = "~/Desktop/work/ps-to-svg/";
 ```
-- SVG destination:
+- SVG files:
 	```
 	openIllustrator: function(file, color){
 		...
@@ -35,7 +35,7 @@ To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, lo
 	
 	```
 		
-- Move the file into Photoshop's Scripts folder. On the command line, enter:
+- Move the script into Photoshop's Scripts folder. On the command line, enter:
 
 	```
 	$ mv ~/Desktop/SVG\ Me.jsx /Applications/Adobe\ Photoshop\ CS6/Presets/Scripts/
@@ -48,7 +48,7 @@ To use SVG ME, you'll need to place the script in Photoshop's Scripts folder, lo
 - Run the script under **File > Scripts > SVG Me**. 
 *Make it better*: Set up a keyboard shortcut under **Edit > Keyboard Shortcuts > File > Scripts > SVG Me**.
 
-- The script creates and saves CSS and AI files, then Illustrator opens the AI file and shows an options dialog. Check relevant boxes and click OK. The magic happens in the background.
+- The script creates and saves CSS and AI files, then Illustrator opens the AI file and shows an options dialog. Check relevant boxes and click OK. The SVG-making magic happens in the background.
 
 ![Illustrator Dialog](https://github.com/abbyoung/svg-me/blob/master/illustrator-dialog.jpg)
 
